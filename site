@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stoneblock Server Status</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .status {
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #e7f3fe;
+            border: 1px solid #b3d8ff;
+            border-radius: 5px;
+        }
+        .status span {
+            font-weight: bold;
+        }
+        .button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 20px 0;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+        .contact {
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Stoneblock Server Status</h1>
+        <p>Velkommen til vores Stoneblock serverstatus-side! Her kan du holde øje med, om der er strøm på serveren, og få adgang til serveren gratis i op til 3 timer. Efter de første 3 timer koster det 1 jernklump (Iron Ingot) per time at bruge serveren.</p>
+        
+        <div class="status">
+            <p>Strøm på serveren: <span id="serverStatus">Ja</span></p>
+            <p>Online spillere: <span id="playerCount">5</span></p>
+        </div>
+
+        <a href="#" class="button">Start dine 3 gratis timer</a>
+        
+        <h2>Opsætning</h2>
+        <p>Opsætning af serveren kan udføres af jer selv. Hvis I ønsker hjælp til opsætning, koster det 1 kul (Coal).</p>
+
+        <div class="contact">
+            <h2>Kontakt os</h2>
+            <p>Email: support@stoneblockserver.dk</p>
+            <p>Telefon: 1234 5678</p>
+        </div>
+    </div>
+</body>
+</html>
